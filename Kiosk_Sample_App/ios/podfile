@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Kiosk_Sample_App' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Kiosk_Sample_App
+
+  target 'Kiosk_Sample_App-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testin
+  end
+
+  target 'Kiosk_Sample_AppTests' do
+    inherit! :search_paths
+    # Pods for testing
+	pod 'PayPalHereSDK'
+  end
+
+end
+

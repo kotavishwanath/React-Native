@@ -1,0 +1,14 @@
+PODS:
+  - PayPalHereSDK (1.6.8):
+    - PayPalHereSDK/Debug (= 1.6.8)
+  - PayPalHereSDK/Debug (1.6.8)
+
+DEPENDENCIES:
+  - PayPalHereSDK
+
+SPEC CHECKSUMS:
+  PayPalHereSDK: 138d0bb7bab7a740272ffef6336cd1ed06fd9b20
+
+PODFILE CHECKSUM: d06359120bf1f80e4d7d845b82d45db596d0a4f5
+
+COCOAPODS: 1.3.1

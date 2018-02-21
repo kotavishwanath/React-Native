@@ -12,11 +12,28 @@ import {
 } from 'react-native';
 
 export default class Checkout extends Component<{}>{
+
+
+    constructor(props){
+        super(props);
+    }
+
     render(){
         return(
             <View> 
-                <Text> Checkout Screen </Text> 
+                    <Text> Checkout Panel </Text>
             </View>
         )
     }
+
+    renderButtonsViewOnScreen=()=> {
+
+        
+    }
+
+    buttonClicked=()=> {
+
+    }
+
+
 }
